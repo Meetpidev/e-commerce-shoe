@@ -1,23 +1,30 @@
 .arrow-button {
-    all:unset;
-    background-color:white;
-    color: grey;
-    border: 1px solid grey;
-    border-radius: 5px;
-    width: 90%;
-    padding: 20px 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+  background-color:white;
+  color: grey;
+  border: 1px solid grey;
   
-  #arrow-icon {
-    position: absolute;
-    right: 960px;
+  border-radius: 5px;
+  width: 80%;
+  padding: 20px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+#arrow-icon {
+  position: absolute;
+  right: 220px;
+}
+
+.arrow-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 598px){
+  #arrow-icon{
+    position: relative;
+    right: 0px;
   }
-  
-  .arrow-button:hover {
-    background-color: #0056b3;
-  }
-  
+}
