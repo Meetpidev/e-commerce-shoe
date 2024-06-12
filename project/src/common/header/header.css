@@ -103,7 +103,9 @@ li {
     display: none;
   }
   
-  
+  .img{
+    color: black;
+  }
   @media (max-width: 1080px) {
     .main-nav {
       height: 8rem;

@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-.container {
-  max-width: 100%;
-  overflow: hidden;
-=======
-body,
-html {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
 .container {
   box-sizing: border-box;
   max-width: 100%;
   overflow-x: hidden;
->>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934
 }
 
 .first-container {
@@ -48,25 +35,17 @@ html {
   max-width: 100%;
 }
 
-.first-container > .info > .call > .icon,
-.first-container > .info > .mail > .icon {
+.first-container > .info > .call > .icoon,
+.first-container > .info > .mail > .icoon {
   font-size: 3em;
   margin: 5px;
 }
 
-<<<<<<< HEAD
-.first-container > .info > .call  {
+.first-container > .info > .call > .icoon > .phone{
   color: blue;
 }
 
-.first-container > .info > .mail {
-=======
-.first-container > .info > .call > .icon {
-  color: blue;
-}
-
-.first-container > .info > .mail > .icon {
->>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934
+.first-container > .info > .mail > .icoon > .email{
   color: red;
 }
 
@@ -82,35 +61,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-around;
-<<<<<<< HEAD
-  flex-wrap: wrap; 
-=======
   flex-wrap: wrap; /* Ensure flex items wrap to prevent overflow */
->>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934
 }
 
 .second-container > .first-part > div,
 .second-container > .second-p {
-<<<<<<< HEAD
-  max-width: 100%; 
-  transform: translateY(14px);
-}
-
-.msg {
-  color: blue;
-}
-
-.email_us{
-    transform: translateY(-.5rem);
-}
-.gmail{
-    transform: translateY(-.5rem);
-}
-=======
   max-width: 100%; /* Ensure child elements do not exceed container width */
 }
 
 a {
   color: blue;
 }
->>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934

@@ -29,7 +29,7 @@ function ProductDetail() {
                   </div> 
 
                   <div className="breadcrumbs-content 55555">
-                     <Link aria-label="All Products" to={"/shop"}> All Products </Link>
+                     <Link aria-label="All Products" to={"/shop"} style={{color:"black"}}> All Products </Link>
                   </div>
           
                     <div className="breadcrumbs-arrow">

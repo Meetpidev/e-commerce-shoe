@@ -51,18 +51,11 @@
     font-size: larger;
     font-weight: 400;
 }
-<<<<<<< HEAD
 
 .flex1{
     width: 100%;
-=======
-.cl{
->>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
+
 .shoe-img{
     margin-top: 4rem;
     height: 95px;

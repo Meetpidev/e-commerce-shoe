@@ -1,4 +1,5 @@
 import feat1 from "../../assets/Product_Page/feat1.jpg";
+import backGroundImg from "../../assets/Product_title/img4.jpg";
 export default function Service_1(){
     return(
     <>
@@ -24,7 +25,7 @@ export default function Service_1(){
                 <h3 style={{fontWeight:"500"}}>Can you trust a pair of sneakers to make a super long hectic day feel as smooth as a cruise ride? If they are the Whoosh Lite Sneakers, you can. Minimal in its design but loaded with structural comfort, this footwear ensures swiftness that’s akin to gliding, not just walking. If you typically spend your entire day moving, with these sneakers on, you will feel like they are carrying you from one place to another with ease.</h3>
             </div>
             <div style={{paddingRight:".1rem"}}>
-            <img src={feat1} alt="adidas" className="sec1-img"/>
+             <img src={backGroundImg} alt="adidas" style={{height:'350px', width:'612px'}} className="sec2-img"/>
             </div>
             </div>
     </>);

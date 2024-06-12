@@ -30,7 +30,7 @@ function Product({ title, idx }) {
         <div>
           <div className="product-card-title">{title}</div>
           <div className="product-card-price">
-            Rs <span style={{ color: "red" }}>{oldprices[idx]}</span>
+            <span style={{color:"black", paddingRight:".6rem"}}>Rs</span><span style={{ color: "red" }}>{oldprices[idx]}</span>
           </div>
         </div>
       </div>
