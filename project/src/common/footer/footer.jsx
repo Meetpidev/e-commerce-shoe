@@ -106,7 +106,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer">
-        <p>designed and maintained by clumoss</p>
+        <p>Designed and maintained by Clusters of Multi Organizations for Support & Services</p>
       </div>
     </div>
     </>

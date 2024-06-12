@@ -14,7 +14,14 @@ import Payment from "./Pages/PaymentPage/Payment.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Auth0Provider
+    domain="dev-ufg3sbrpr0btzdlb.us.auth0.com"
+    clientId="ldRSFKTmSMuwJhoaWYmJVzELa2hfsob0"
+    authorizationParams={{
+      redirect_uri: window.location.origin,
+    }}
+  > <App />
+  </Auth0Provider>,
     children: [
       {
         path: "/productDetail",
@@ -49,15 +56,9 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Auth0Provider
-    domain="dev-ufg3sbrpr0btzdlb.us.auth0.com"
-    clientId="ldRSFKTmSMuwJhoaWYmJVzELa2hfsob0"
-    authorizationParams={{
-      redirect_uri: window.location.origin,
-    }}
-  >
+  
     <RouterProvider router={router} />
-  </Auth0Provider>
+  
 
 );
 

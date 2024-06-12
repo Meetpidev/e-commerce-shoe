@@ -4,9 +4,9 @@ import shoe3 from "../../assets/Product_Page/Product_3.png";
 import shoe4 from "../../assets/Product_Page/Product_4.png";
 import shoe5 from "../../assets/Product_Page/Product_5.png";
 import shoe6 from "../../assets/Product_Page/Product_6.png";
-import  Carousel from "./Carousal";
+import Carousel from "./Carousal";
 import ProductPagedetails from "./ProductPagedetails";
-import Service from "./Service";
+import Service from "../ServicePage/service";
 import { useState } from "react";
 import "./ProductPage.css";
 
@@ -24,7 +24,7 @@ function ProductPage() {
 
   return (
     <>
-       <h1>Product Details</h1>
+       <h1 style={{textAlign:"center", marginTop:"4.5rem"}}>Product Details</h1>
         <div className="prod">
             <Carousel data={slides} currentSlide={slide} setCurrentSlide={setSlide}/>
             <ProductPagedetails data={slides} currentSlide={slide} setCurrentSlide={setSlide}/>

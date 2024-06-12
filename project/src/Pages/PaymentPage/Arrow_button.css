@@ -4,7 +4,7 @@
     color: grey;
     border: 1px solid grey;
     border-radius: 5px;
-    width: 90%;
+    width: 75%;
     padding: 20px 20px;
     cursor: pointer;
     display: flex;
@@ -12,12 +12,12 @@
     margin-bottom: 10px;
   }
   
-  #arrow-icon {
+  .icon-arrow {
     position: absolute;
-    right: 960px;
+    right: 160px;
   }
   
   .arrow-button:hover {
-    background-color: #0056b3;
+    background-color:aliceblue;
   }
   

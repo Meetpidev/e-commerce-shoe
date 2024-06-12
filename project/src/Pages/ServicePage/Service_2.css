@@ -1,0 +1,68 @@
+.sec2-main {
+  margin-top: 4rem;
+}
+.sec2-main h2{
+  text-align: center;
+  margin-top: 2rem;
+}
+  .Review-blocks {
+    display: flex;
+    flex-direction: row;
+    margin: 60px auto;
+    margin-bottom: 40px;
+    width: max-content;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .Review-blocks {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* Adjust Review-block-2 and Review-block-3 for responsiveness */
+  .Review-block-2,
+  .Review-block-3 {
+    margin-left: 100px;
+    margin-top: 20px; /* Adjust spacing */
+    width: 100%; /* Make them take full width */
+  }
+  
+  /* Responsive styles for form-review */
+  .form-review {
+    text-align: center;
+  }
+  
+  /* Responsive styles for textarea */
+  .form-review textarea {
+    width: 100%; /* Make the textarea take full width */
+    border: 2px solid black;
+  }
+  
+  /* Responsive styles for button */
+  .form-review .rat-btn{
+    width: 100%; /* Make the button take full width */
+    margin-top: 10px; /* Add spacing between textarea and button */
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: fit-content;
+    cursor: pointer;
+    padding: 1rem;
+  }
+  .vl {
+    border-left: 1px solid brown;
+    height: 150px;
+    margin-left: 10px;
+  }  
+
+  @media screen and (max-width: 768px) {
+    .vl{
+        display: none;
+    }
+  }

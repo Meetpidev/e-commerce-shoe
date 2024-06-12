@@ -46,12 +46,12 @@ label{
     margin-right: 55px;
 }
 
-input{
+.Payment_input{
     position: absolute;
     right:980px;
 }
 
-input[type="radio"]:checked{
+.Payment_input[type="radio"]:checked{
     accent-color: blue;
 }
 

@@ -1,0 +1,81 @@
+.container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.first-container {
+  margin-top: 4rem;
+}
+
+.first-container > .heading {
+  text-align: center;
+  padding: 5px;
+}
+
+.first-container > .heading > h1 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.first-container > .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.first-container > .info > .call,
+.first-container > .info > .mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.first-container > .info > .call > .icon,
+.first-container > .info > .mail > .icon {
+  font-size: 3em;
+  margin: 5px;
+}
+
+.first-container > .info > .call  {
+  color: blue;
+}
+
+.first-container > .info > .mail {
+  color: red;
+}
+
+.first-container > .info > .call > .callUs,
+.first-container > .info > .call > .no,
+.first-container > .info > .mail > .email_us,
+.first-container > .info > .mail > .gmail {
+  margin: 2px 0;
+}
+
+.container > .second-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+}
+
+.second-container > .first-part > div,
+.second-container > .second-p {
+  max-width: 100%; 
+  transform: translateY(14px);
+}
+
+.msg {
+  color: blue;
+}
+
+.email_us{
+    transform: translateY(-.5rem);
+}
+.gmail{
+    transform: translateY(-.5rem);
+}

@@ -1,12 +1,15 @@
-import { FaChevronRight } from "react-icons/fa";
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import './Arrow_button.css';
 
 function Arrow_button({text}) {
     return (
         <button className="arrow-button">
+        
             {text}
-            <FaChevronRight id="arrow-icon" />
+            <KeyboardArrowRightIcon  className="icon-arrow"/>
+
         </button>
+
     );
 
 }

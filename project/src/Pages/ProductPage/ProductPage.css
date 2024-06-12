@@ -67,7 +67,7 @@
 }
 
 .cart-btn {
-    height: 35px;
+    height: 45px;
     width: 140px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -75,6 +75,8 @@
     border: 2px solid #FF0000;
     border-radius: 5px;
     color: #FFFFFF;
+    transform: translateY(-0.01px);
+    margin-top: .8rem;
 }
 
 .cart-btn:hover {
@@ -82,7 +84,7 @@
 }
 
 .fav-btn {
-    height: 35px;
+    height: 45px;
     width: 140px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -90,6 +92,8 @@
     border: 1px solid linear-gradient(to right, #FB0000, #666666);
     border-radius: 5px;
     color: #000000;
+    transform: translateY(-0.01px);
+    margin-top: .8rem;
 }
 
 .fav-btn:hover {
@@ -98,10 +102,12 @@
 .size-btn {
     background-color: #F6F8F9;
     border: none;
-    height: 30px;
+    height: 35px;
     width: 40px;
     cursor: pointer;
+    color: black;
     transition: background-color 0.3s ease;
+    transform: translateY(-1px);
 }
 
 .size-btn:hover {
