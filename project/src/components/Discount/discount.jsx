@@ -17,7 +17,7 @@ function Discount() {
             <p className="discount-description">
               New membership will get 20% discount for first purchase
             </p>
-            <button className="button">
+            <button className="bjoin">
               Join now
             </button>
           </div>

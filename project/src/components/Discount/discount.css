@@ -150,25 +150,24 @@
       }
       
 
-      .button {
+      .discount-page .bjoin {
         background-color: #ffffff;
         color: black;
         border: none;
         font-weight: 500;
 
-        transform: translateY(135px);
+        transform: translateY(145px);
         padding: 10px 20px;
         font-size: 1.8em;
         margin-right: 4rem;
-
+        height: 4rem;
+        width: fit-content;
         margin-top: 40px;
-        padding: 10px 20px;
-        font-size: 1.8em;
-
         cursor: pointer;
+        border: 1px solid black;
       }
       
-      .button:hover {
+      .bjoin:hover {
         background-color: #dbd8d8;
       }
       
