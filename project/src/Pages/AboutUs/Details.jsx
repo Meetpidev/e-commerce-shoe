@@ -54,7 +54,7 @@ function Details() {
           </div>
           </div>
           
-          <div className="topbrands">
+          <div className="topbrandss">
             <TopBrands></TopBrands>
           </div>
           

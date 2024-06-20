@@ -1,19 +1,35 @@
 
-import visa from "../../assets/Payment_Page/Visa.png"
-import master_card from "../../assets/Payment_Page/masterCard.png";
-import shoes from "../../assets/Products_card/Shoes_1.png";
+import { useState } from 'react';
+import './Payment.css';
 import { FaRegSquareCheck, FaRegSquare} from 'react-icons/fa6';
 import { FaChevronDown,FaRegTimesCircle } from 'react-icons/fa';
 import Option from './Arrow_button.jsx';
-import "./Payment.css";
+import visa from '../../assets/Payment_Page/Visa.png';
+import master from '../../assets/Payment_Page/masterCard.png';
+import shoe from '../../assets/Products_card/Shoes_1.png';
 
-function Payment() {
-  return (
-    <>
+export default function ProductPage(){
+    const [isInputVisible, setIsInputVisible] = useState(false);
+    const [promoCode, setPromoCode] = useState("");
+    const [showFullAddress, setShowFullAddress] = useState(false);
+
+    const addCodeClick=()=>{
+        setIsInputVisible(true);
+    }
+
+    const inputChange=(e)=>{
+        setPromoCode(e.target.value);
+    }
+
+    const toggleFullAddress = () => {
+        setShowFullAddress(!showFullAddress);
+    }
+
+    return(
         <div className='top'>
             <div id="left">
                 <nav>
-                    <div className="top">
+                    <div className="top2">
                         <div className="done">
                             <FaRegSquareCheck/><span>Cart</span>
                         </div>
@@ -35,7 +51,7 @@ function Payment() {
                         Debit Card
                         <form>
                             <div className='cards'>
-                                <img src={master_card} className='cardImg'></img>
+                                <img src={master} className='cardImg'></img>
                                 <label>Axim Bank</label>
                                 <label>**** **** **** 4578</label>
                                 <input type="radio" name="method"></input>
@@ -55,12 +71,12 @@ function Payment() {
             <div id="right">
                 <FaRegTimesCircle id="close"/>
                 <div id='head' className='top'>
-                    <div>
-                        <img src={shoes} id='shoe' style={{background:"#F5F7F9"}}></img>
+                    <div style={{background:"#F5F7F9"}}>
+                        <img src={shoe} id='shoe'></img>
                     </div>
                     <div>
                         <div style={{width: "150px"}}>
-                            Nike Mens Joyride Run Flyknit Shoes
+                            Nike Men's Joyride Run Flyknit Shoes
                         </div><br/>
                         <div style={{fontWeight:"bold"}}>$66.00</div>
                     </div>
@@ -68,7 +84,7 @@ function Payment() {
                 </div>
                 <div className='bill'>
                     <div>Offers</div>
-                    <div className='num'>Add Code</div>
+                    <div className='num'>{isInputVisible? (<textarea value={promoCode} onChange={inputChange}/>):(<span onClick={addCodeClick} style={{color:"blue"}}>Add Code</span>)}</div>
                 </div><br/>
                 
                 <div className='bill'>
@@ -95,7 +111,7 @@ function Payment() {
 
                 <div className='bill'>
                     <div>Address</div>
-                    <div className='num'>12, WLS Regancy <FaChevronDown/></div>
+                    <div className='num' style={{width:"90px"}}>{showFullAddress ? "12, WLS Regancy, New Hampshire, USA" : "12, WLS Regancy..."}<FaChevronDown onClick={toggleFullAddress} /></div>
                 </div>
 
                 <br/>
@@ -106,8 +122,5 @@ function Payment() {
 
             
         </div>
-    </>
-  )
+    );
 }
-
-export default Payment

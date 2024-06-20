@@ -1,15 +1,14 @@
 //Accordion
 import Accordion from '@mui/material/Accordion';
-import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import Button from '@mui/material/Button';
 
 
 export default function AccordionUsage() {
   return (
-    <div  style={{marginTop:"30px",marginLeft:"20px"}}>
+    <>
+    <div  className="sec3-main" style={{marginTop:"4rem"}}>
         <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -27,7 +26,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           style={{fontWeight:"bold",height:"60px",fontSize:"20px"}}
         >
-          Are Neemans shoes washable?
+          Are Neeman's shoes washable?
         </AccordionSummary>
         <AccordionDetails>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -41,7 +40,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           style={{fontWeight:"bold",height:"60px",fontSize:"20px"}}
         >
-          Are Neemans shoes washable?
+          Are Neeman's shoes washable?
         </AccordionSummary>
         <AccordionDetails>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -55,7 +54,7 @@ export default function AccordionUsage() {
           id="panel1-header"
           style={{fontWeight:"bold",height:"60px",fontSize:"20px"}}
         >
-          Are Neemans shoes washable?
+          Are Neeman's shoes washable?
         </AccordionSummary>
         <AccordionDetails>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -69,7 +68,7 @@ export default function AccordionUsage() {
           id="panel2-header"
           style={{fontWeight:"bold",height:"60px",fontSize:"20px"}}
         >
-          Are Neemans shoes washable?
+          Are Neeman's shoes washable?
         </AccordionSummary>
         <AccordionDetails>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -83,7 +82,7 @@ export default function AccordionUsage() {
           id="panel3-header"
           style={{fontWeight:"bold",height:"60px",fontSize:"20px"}}
         >
-          Are Neemans shoes washable?
+          Are Neeman's shoes washable?
         </AccordionSummary>
         <AccordionDetails>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -95,5 +94,6 @@ export default function AccordionUsage() {
         </AccordionActions> */}
       </Accordion>
     </div>
+    </>
   );
 }

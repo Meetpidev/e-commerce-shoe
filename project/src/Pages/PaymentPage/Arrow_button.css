@@ -1,10 +1,11 @@
 .arrow-button {
+<<<<<<< HEAD
     all:unset;
     background-color:white;
     color: grey;
     border: 1px solid grey;
     border-radius: 5px;
-    width: 90%;
+    width: 75%;
     padding: 20px 20px;
     cursor: pointer;
     display: flex;
@@ -12,12 +13,43 @@
     margin-bottom: 10px;
   }
   
-  #arrow-icon {
+  .icon-arrow {
     position: absolute;
-    right: 960px;
+    right: 160px;
   }
   
   .arrow-button:hover {
-    background-color: #0056b3;
+    background-color:aliceblue;
   }
   
+=======
+  background-color:white;
+  color: grey;
+  border: 1px solid grey;
+  
+  border-radius: 5px;
+  width: 80%;
+  padding: 20px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+#arrow-icon {
+  position: absolute;
+  right: 220px;
+}
+
+.arrow-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 598px){
+  #arrow-icon{
+    position: relative;
+    right: 0px;
+  }
+}
+>>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934

@@ -13,7 +13,7 @@
 #inside1{
     margin-right: 400px;
     margin-left: 400px;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 #inside1 h2{
     padding-bottom: 2rem;
@@ -23,20 +23,20 @@
 
 #inside2{
     margin-top:60px;
+    transform: translateX(-3.8rem);
 }
 
-#i1{
+.i11{
     background-color: white;
     color: black;
     padding: 9px;
     padding-left: 19px;
     box-sizing: border-box;
    border:3px solid black;
-    width: 59vw;
+    width: 39vw;
     height: 8vh;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 20px;
-
 }
 
 #i2{
@@ -51,22 +51,29 @@
     font-size: larger;
     font-weight: 400;
 }
-.cl{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+.flex1{
+    width: 100%;
 }
+
 .shoe-img{
     margin-top: 4rem;
     height: 95px;
     width:100px;
     
 }
+.Topbrands{
+    margin-top: 5rem;
+}
 .Topbrands h2{
     font-weight: 400;
     font-size: 2.5vw;
 
 }
-
-
+.cl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem
+}

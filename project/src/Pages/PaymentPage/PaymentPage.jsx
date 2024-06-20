@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import './PaymentPage.css';
 import { FaRegSquareCheck, FaRegSquare} from 'react-icons/fa6';
 import { FaChevronDown,FaRegTimesCircle } from 'react-icons/fa';
@@ -6,7 +7,23 @@ import visa from './Visa.png';
 import master from './masterCard.png';
 import shoe from './shoe.png';
 
-export default function PaymentPage(){
+export default function ProductPage(){
+    const [isInputVisible, setIsInputVisible] = useState(false);
+    const [promoCode, setPromoCode] = useState("");
+    const [showFullAddress, setShowFullAddress] = useState(false);
+
+    const addCodeClick=()=>{
+        setIsInputVisible(true);
+    }
+
+    const inputChange=(e)=>{
+        setPromoCode(e.target.value);
+    }
+
+    const toggleFullAddress = () => {
+        setShowFullAddress(!showFullAddress);
+    }
+
     return(
         <div className='top'>
             <div id="left">
@@ -66,7 +83,7 @@ export default function PaymentPage(){
                 </div>
                 <div className='bill'>
                     <div>Offers</div>
-                    <div className='num'>Add Code</div>
+                    <div className='num'>{isInputVisible? (<textarea value={promoCode} onChange={inputChange}/>):(<span onClick={addCodeClick} style={{color:"blue"}}>Add Code</span>)}</div>
                 </div><br/>
                 
                 <div className='bill'>
@@ -93,7 +110,7 @@ export default function PaymentPage(){
 
                 <div className='bill'>
                     <div>Address</div>
-                    <div className='num'>12, WLS Regancy <FaChevronDown/></div>
+                    <div className='num' style={{width:"90px"}}>{showFullAddress ? "12, WLS Regancy, New Hampshire, USA" : "12, WLS Regancy..."}<FaChevronDown onClick={toggleFullAddress} /></div>
                 </div>
 
                 <br/>

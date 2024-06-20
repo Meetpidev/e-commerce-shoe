@@ -1,13 +1,5 @@
-import shoess1 from "../../assets/Product_Page/Product_1_Sqare.png";
-import shoe2 from "../../assets/Product_Page/Product_2.png";
-import shoe3 from "../../assets/Product_Page/Product_3.png";
-import shoe4 from "../../assets/Product_Page/Product_4.png";
-import shoe5 from "../../assets/Product_Page/Product_5.png";
-import shoe6 from "../../assets/Product_Page/Product_6.png";
+
 import { useState } from "react";
-import  Carousel  from "./Carousal";
-import StarIcon from '@mui/icons-material/Star';
-import StarBorderPurple500OutlinedIcon from '@mui/icons-material/StarBorderPurple500Outlined';
 import "./ProductPage.css";
 import "./Carousal.css";
 import { Link } from "react-router-dom";

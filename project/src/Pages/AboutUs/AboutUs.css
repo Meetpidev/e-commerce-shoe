@@ -38,6 +38,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-.topbrands{
+.topbrandss{
     margin-top: 8rem;
 }
