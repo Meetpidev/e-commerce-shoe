@@ -10,10 +10,10 @@ function AboutUs() {
         <img src={backGroundImg} alt="" />
 
         <div className="title">
-            <h1>Best &nbsp;&nbsp;<span>2024</span></h1>
+            <h1>Best &nbsp;&nbsp;<span style={{color:"red"}}>2024</span></h1>
             <h1>Collections</h1>
             <p>Find your shoes that suits you the best and comfortble</p>
-            <button>Shop Now</button>
+            <button className="shop_now">Shop Now</button>
         </div>
       </div>
       

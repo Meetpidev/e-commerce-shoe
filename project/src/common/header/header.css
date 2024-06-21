@@ -76,9 +76,10 @@ li {
   }
   
   .icon-images .img{
-      height: 50px;
-      width: 50px;
+      height: 44px;
+      width: 44px;
       margin-right: 3rem;
+      transform: translateY(.2rem);
   }
   
   .menu-link ul li a {

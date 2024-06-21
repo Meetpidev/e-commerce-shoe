@@ -92,13 +92,11 @@
         background-image: url('../../assets/Discount_img/Discount_img.png');
         background-size: cover;
         background-position: center;
-        height:600px;
         width: 100%;
         background-image: url('../../assets/Discount_img/img6.jpg');
         background-size: cover;
         background-position: center;
-        height:99vh;
-
+        height:90vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -132,31 +130,16 @@
         font-size: 2em;
         color: white;
       }
-
-      
       .discount-title-content {
         font-size:3.4em;
         font-weight: 300;
-        
-        
       }
-      
-      
-      
-      .discount-description {
-        font-size: 2em;
-       
-
-      }
-      
-
       .discount-page .bjoin {
         background-color: #ffffff;
         color: black;
         border: none;
         font-weight: 500;
-
-        transform: translateY(145px);
+        transform: translateY(115px);
         padding: 10px 20px;
         font-size: 1.8em;
         margin-right: 4rem;
@@ -165,9 +148,11 @@
         margin-top: 40px;
         cursor: pointer;
         border: 1px solid black;
+        transition: all 0.3s ease-in-out;
       }
       
       .bjoin:hover {
-        background-color: #dbd8d8;
+        background-color: black;
+        color: white;
       }
       

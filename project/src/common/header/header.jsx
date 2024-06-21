@@ -1,9 +1,9 @@
 import logo from "../../assets/Company_Logo/logo.jpg";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import EmailIcon from '@mui/icons-material/Email';
 import Authentication from "./Authetication";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./header.css";
 
 export default function Header() {

@@ -1,0 +1,153 @@
+.methods,.method2,.method3,.method4,.method5{
+    display: flex;
+    margin-left: 1rem;
+  }
+  .method2,.method3,.method4,.method5{
+    margin-top: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .paycard{
+    width: 4.5rem;
+    height: 2rem;
+  }
+  .issuer-image img{
+    transform: translateX(-.7rem);
+    padding: .7rem .1rem;
+  }
+  .pluse{
+    height: 2rem;
+    width: 2rem;
+  }
+  .card-pic{
+    padding-left: .4rem;
+    height: 1.5rem;
+    width: 3rem;
+  }
+  .pp{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .bank{
+    margin-top: .3rem;
+    border-radius: .4rem;
+    padding: .2rem;
+  }
+  .upId{
+    margin-top: .8rem;
+    transform: translateX(.4rem);
+    border-radius: .3rem;
+    padding: .3rem;
+  }
+  .button-text{
+    margin-left: 1rem;
+    padding: .4rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  /* Credit Card Details */
+
+  .credit-card-form {
+    background-color: white;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 800px;
+    margin: 1rem 1.8rem;
+  }
+  .card-titles{
+    width: 100%;
+    transform: translateY(-1rem);
+    background-color: #ddd;
+  }
+  .form-start{
+    /* display: grid; */
+    /* grid-template-columns: 1fr 10rem; */
+    padding: 10px 20px;
+  }
+ 
+  .card-titles h3{
+      padding: 20px;
+  }
+  .credit-card-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .cards-visa img{
+    height: 2rem;
+    width: 3rem;
+  }
+  
+  .expiration-date {
+    display: flex;
+  }
+  
+  .expiration-date select {
+    width: 48%;
+  }
+  .security-code-info{
+    width: 100%;
+  }
+  
+  .accepted-cards {
+    margin-top: 20px;
+    height: 2rem;
+  }
+  .formnd{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+  }
+  
+  .accepted-cards .cards img {
+    margin-right: 10px;
+  }
+  
+  .form-actions {
+    display: flex;
+    background-color: #ddd;
+  }
+ 
+  .form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: .7rem;
+    margin-top: .5rem;
+    margin-right: .8rem;
+  }
+  
+  .form-actions button[type="submit"] {
+    background-color: #ff9900;
+    color: white;
+  }
+  .payment-submit:disabled{
+    background-color: #ccc;
+    color: black;
+    cursor: not-allowed;
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 2rem;
+  }

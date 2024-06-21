@@ -1,0 +1,113 @@
+.cheout{
+    text-align: center;
+    margin-top: 3rem;
+}
+.checkOut{
+    display: flex;
+    flex-direction: row;
+}
+.re-title{
+    margin-left: 9rem;
+    font-size: 1.5rem;
+}
+.adrs{
+    margin-left: 11rem;
+}
+.ship-form{
+    margin-left: 11rem;
+    border: 1px solid black;
+    width: 68%;
+    padding: 2.4rem;
+    border-radius: .4rem;
+}
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .form-group input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+  }
+  .oneline{
+    display: flex;
+  }
+  .form-group2{
+    padding-right: 2rem;
+    padding-top: .8rem;
+    margin-right: 2rem;
+  }
+  .form-group2 input{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+  }
+  input[name="city"]{
+    margin-left: 1.2rem;
+  }
+  .selection{
+   transform: translateX(-.8rem);
+  }
+  .default-adrs{
+    margin-top: 1.9rem;
+    margin-left: 1rem;
+  }
+  .selection{
+    padding: .4rem;
+    width: 11rem;
+    height: 2.5rem;
+  }
+  
+  .submit {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+    margin-left: 8rem;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+  .submit:disabled {
+    background-color: rgba(128,128,128,.3);
+    color: rgba(0,0,0,.8);
+    cursor: not-allowed;
+  }
+  .payment-methods{
+    border: 1px solid black;
+    margin-left: 11rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .4rem;
+    margin-right: 2.5rem;
+  }
+  .verification{
+    display: flex;
+  }
+  .robo{
+    margin-top: 1rem;
+  }

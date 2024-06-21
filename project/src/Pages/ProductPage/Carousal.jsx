@@ -61,7 +61,7 @@ export default function Carousel({ data, currentSlide, setCurrentSlide }){
   return (
     <div className="prod-2">
       <div className="carousel">
-        {/* <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" /> */}
+      
         {data.map((item, idx) => (
           <img
             src={item.src}
@@ -70,7 +70,7 @@ export default function Carousel({ data, currentSlide, setCurrentSlide }){
             className={currentSlide === idx ? "slide" : "slide slide-hidden"}
           />
         ))}
-        {/* <BsArrowRightCircleFill onClick={nextSlide} className="arrow arrow-right" /> */}
+       
         <span className="indicators">
           {data.map((_, idx) => (
             <button

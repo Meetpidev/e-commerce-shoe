@@ -25,15 +25,15 @@
 }
 .price{
     font-style: normal;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.02em;
-    color: #26282B;
+    color: green;
     margin-left: 1rem;
 }
 .notPrice{
-    color: gray;
+    color: rgb(255, 0, 0);
     text-decoration: line-through;
     padding-left: .5rem;
 }

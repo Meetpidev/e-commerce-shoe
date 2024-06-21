@@ -1,70 +1,122 @@
 import "./Contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-export default function Contact() {
+import { useForm, ValidationError } from "@formspree/react";
+
+function Contact() {
+  const [state, handleSubmit] = useForm("xeojjegw"); 
+
+  const Buttonclicked = () => {
+    alert("Thank you for your response");
+  };
+
   return (
     <>
-      <div className="container">
-        <div className="first-container">
-          <div className="heading">
-            <h1>Contact US</h1>
+      <div className="container-contact">
+        <div className="contactus">
+          <div className="first">
+            <div className="heading">
+              <h1>Let&apos;s get in touch</h1>
+            </div>
+            <div className="info">
+              <div className="contact">
+                <div className="icon">
+                  <FaPhoneAlt />
+                </div>
+                <div className="no">+91 485624658</div>
+              </div>
+              <div className="contact">
+                <div className="icon">
+                  <MdEmail />
+                </div>
+                <div className="gmail">
+                  <a href="mailto:DRcollection@gmail.com">
+                    DRcollection@gmail.com
+                  </a>
+                </div>
+              </div>
+              <div className="restgmail">
+                <div className="firstm">
+                  <p>For Customer Assistant</p>
+                  <a href="mailto:Support@collection.com">
+                    Support@collection.com
+                  </a>
+                </div>
+                <div className="secondm">
+                  <p>For Corporate Enquiry Assistant</p>
+                  <a href="mailto:Coorporate@collection.com">
+                    Coorporate@collection.com
+                  </a>
+                </div>
+                <div className="thirdm">
+                  <p>For PR and Advertising Assistant</p>
+                  <a href="mailto:Pr@DRCollection.com">Pr@DRCollection.com</a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="info">
-            <div className="call">
-              <div className="icoon">
-                <FaPhoneAlt className="phone"/>
+          <div className="second">
+            <form className="contact-form"
+              onSubmit={(e) => {
+                handleSubmit(e);
+                if (state.succeeded) {
+                  Buttonclicked();
+                }
+              }}
+            >
+              <div className="group">
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Enter Your Name"
+                  className="names"
+                  required
+                />
+                <ValidationError
+                  prefix="Name"
+                  field="name"
+                  errors={state.errors}
+                />
               </div>
-              <div className="callUs">Call Us</div>
-              <div className="no">+91 485624658</div>
-            </div>
-
-            <div className="mail">
-              <div className="icoon">
-                <MdEmail className="email"/>
+              <div className="group">
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter email"
+                  className="email names"
+                  required
+                />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
               </div>
-              <div className="email_us">Email Us</div>
-              <div className="gmail">
-                <a href="">DRcollection@gmail.com</a>
+              <div className="group">
+                <textarea
+                  id="message"
+                  name="message"
+                  className="messages"
+                  placeholder="Enter Your Message"
+                  required
+                />
+                <ValidationError
+                  prefix="Message"
+                  field="message"
+                  errors={state.errors}
+                />
               </div>
-            </div>
+              <button type="submit" className="consub" disabled={state.submitting}>
+                Submit
+              </button>
+            </form>
           </div>
         </div>
-        <div className="second-container">
-          <div className="first-part">
-
-            <div className="first">
-              <p>For Customer Asistant</p>
-              <a href="#" className="msg"><i>Support@collection.com</i></a>
-            </div>
-
-            <div className="second">
-              <p>For Coperate Enquiry Asistant</p>
-              <a href="#" className="msg"><i>Coorporate@collection.com</i></a>
-            </div>
-
-            <div className="third">
-              <p>For PR and Advertising Asistant</p>
-              <a href="#" className="msg"><i>Pr@DRCollection.com</i></a>
-            </div>
-
-          </div>
-          <div className="second-p">
-            <p>
-
-              <strong>Street:</strong> 601, Plot No 15, Megor Arcade, M.g.road<br></br> Nr
-              Sindhuwadi, Ghatkoper (east)
-            </p>
-            <p><strong>City:</strong> Mumbai</p>
-            <p><strong>State/province/area:</strong> Maharashtra</p>
-            <p><strong>Zip code:</strong> 400077</p>
-            <p><strong>Country:</strong> India</p>
-            <p style={{color:"red"}}><strong>Mon-Sat (9:00 AM to 7:00 PM)</strong></p>
-            
-          </div>
-        </div>
-        </div>
+      </div>
     </>
   );
 }
 
-
+export default Contact;

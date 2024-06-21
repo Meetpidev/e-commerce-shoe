@@ -44,12 +44,7 @@ function ProductPagedetails({data, currentSlide, setCurrentSlide}) {
                         );
                     })
                 }
-                {/* <img src={shoe1} alt="nike" className="shoe-img"/>
-                <img src={shoe2} alt="nike" className="shoe-img"/>
-                <img src={shoe3} alt="nike" className="shoe-img"/>
-                <img src={shoe4} alt="nike" className="shoe-img"/>
-                <img src={shoe5} alt="nike" className="shoe-img"/>
-                <img src={shoe6} alt="nike" className="shoe-img"/> */}
+                
                </div>
                &nbsp;&nbsp;
                <span style={{marginTop:"10px",color:"#252C32",fontWeight:"bold",fontSize:"16px"}}>Size</span><br/>

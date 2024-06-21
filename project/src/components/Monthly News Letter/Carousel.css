@@ -1,17 +1,33 @@
-.carousel2   {
-    display: flex;
-    overflow: hidden;
-    gap: 80px;
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-    margin: 30px ;
-    margin-top: 50px ;
-    width: 80vw; /* Adjust the width as needed */
+.carousel2 {
+  display: flex;
+  overflow: hidden;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin: 30px;
+  margin-top: 50px;
+  width: 80vw;
+  position: relative;
+}
+
+.carousel-inner {
+  display: flex;
+  gap: 90px;
+  animation: scroll 4s linear infinite;
+}
+
+.carousel-image {
+  width: 100px;
+  margin-right: 5px;
+
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  
-  .carousel-image {
-    width: 200px; /* Adjust the width to show 3 images at a time */
-    margin-right: 5px; /* Adjust the margin as needed */
+  100% {
+    transform: translateX(calc(-20% - 0.5rem)); 
   }
-  
+}

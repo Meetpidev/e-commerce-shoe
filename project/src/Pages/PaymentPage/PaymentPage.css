@@ -51,20 +51,20 @@ label {
     margin-right: 20px;
 }
 
-<<<<<<< HEAD
+
 .Payment_input{
     position: absolute;
     right:980px;
 }
 
 .Payment_input[type="radio"]:checked{
-=======
+
 input {
     position: relative;
 }
 
 input[type="radio"]:checked {
->>>>>>> 4081f0fed1ce4f93a150c1a232bd2d7bbf1dc934
+
     accent-color: blue;
 }
 
@@ -165,4 +165,5 @@ hr {
     #right{
         margin: 0px;
     }
+}
 }

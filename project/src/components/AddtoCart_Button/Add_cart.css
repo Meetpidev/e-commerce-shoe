@@ -1,7 +1,7 @@
 .add_to_cart_btn {
     position: relative;
     background-color: rgb(255, 255, 255);
-    
+    margin-top: 1.4rem;
     padding: 15px;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -16,4 +16,8 @@
     transition: all 0.3s ease-in-out;
     z-index: 1;
     overflow: hidden;
+  }
+  .add_to_cart_btn:hover{
+    background-color: black;
+    color: white;
   }
