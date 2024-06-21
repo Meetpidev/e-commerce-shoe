@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+
 import './Carousel.css'; 
 import nike from '../../assets/Top_Brands/NikeLogo.png';
 import gucci from "../../assets/Top_Brands/gucci.png";
