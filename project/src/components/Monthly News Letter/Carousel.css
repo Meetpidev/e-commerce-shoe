@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.carousel-inner {
+.carousel-innerss {
   display: flex;
   gap: 90px;
   animation: scroll 4s linear infinite;

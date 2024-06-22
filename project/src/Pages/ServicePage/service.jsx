@@ -19,7 +19,7 @@ export default function Services(){
         <>
         <div className="prod">
             <img src={shoef1} alt="adidas" className="left-img"/>
-            {/* <Carousel data={slides} currentSlide={slide} setCurrentSlide={setSlide}/> */}
+            
             <div className="prod3">
                 <div className="services">
                 <p className="ser"><img src={days} alt="free"/><br></br>7 days Free <br></br> Exchange Policy</p>

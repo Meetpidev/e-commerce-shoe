@@ -1,10 +1,10 @@
-#sec5{
+.section-news{
     align-items: center;
     text-align: center;
     
     overflow-x: hidden;
 }
-#sec5 form{
+.section-news form{
     display: flex;
     flex-direction: column;
     justify-content: center;

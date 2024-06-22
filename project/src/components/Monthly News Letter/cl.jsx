@@ -24,7 +24,7 @@ const Cl = () => {
 
   return (
     <div className="carousel2">
-      <div className="carousel-inner">
+      <div className="carousel-innerss">
         {images.map((image, index) => (
           <img key={index} src={image} alt={`Slide ${index}`} className="carousel-image" />
         ))}

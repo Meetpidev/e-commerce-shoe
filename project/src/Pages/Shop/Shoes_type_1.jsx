@@ -23,7 +23,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                             <p className="color">Red</p>
+                             <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -42,7 +42,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                            <p className="color">Red</p>
+                            <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -60,7 +60,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                            <p className="color">Red</p>
+                            <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -78,7 +78,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                            <p className="color">Red</p>
+                            <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -108,7 +108,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                             <p className="color">Red</p>
+                             <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -126,7 +126,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                            <p className="color">Red</p>
+                            <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -144,7 +144,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                            <p className="color">Red</p>
+                            <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>
@@ -162,7 +162,7 @@ function Shoes_type_1() {
                          <p className="inner_product_title">Whoosh Lite Sneakers</p>
                          </Card.Title>
                             <Card.Text>
-                            <p className="color">Red</p>
+                            <p className="color-shoes">Red</p>
                             </Card.Text>
                             <Card.Text>
                               <span className="price">Rs. 1400</span> <span className="notPrice">Rs. 1599</span>

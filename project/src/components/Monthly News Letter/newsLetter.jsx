@@ -4,7 +4,7 @@ import "./newsLetter.css";
 
 export default function NewsLetter(){
     return(
-        <div id="sec5">
+        <div id="sec5" className="section-news">
             <div id="inside1">
                 <h2 style={{color:"black"}}>Subscribe to our newsletter</h2>
             </div>

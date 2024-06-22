@@ -1,5 +1,5 @@
 
-import Cl from "./Cl.jsx";
+import CL from "./cl.jsx"
 import "./newsLetter.css";
 
 function TopBrands() {
@@ -10,7 +10,7 @@ function TopBrands() {
                
 
                  <div className="cl">
-                  <Cl></Cl>
+                  <CL></CL>
                  </div>
                
                  
