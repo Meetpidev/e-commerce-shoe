@@ -2,7 +2,7 @@ import { useState,useRef } from "react";
 import visa from "../../common/footer/footer-imgs/visa.png";
 import "./MethodsStyle.css";
 import ReCAPTCHA from "react-google-recaptcha";
-import { SITE_KEY } from "../../Secrects";
+// import { SITE_KEY } from "../../Secrects";
 
 const CreditCardDetails = () => {
     const [cardNumber, setCardNumber] = useState('');
@@ -11,6 +11,8 @@ const CreditCardDetails = () => {
     const [expirationYear, setExpirationYear] = useState('2024');
     const [securityCode, setSecurityCode] = useState('');
     const [verified,setverified] = useState(false);
+
+    const siteKey = import.meta.env.REACT_APP_SITE_KEY;
   
     const handleSubmit = (e) => {
       e.preventDefault();
@@ -110,7 +112,7 @@ const CreditCardDetails = () => {
             </div>
 
             <div className="form-group">
-            <ReCAPTCHA ref={captchaRef2} sitekey={SITE_KEY} onChange={Change} />,
+            <ReCAPTCHA ref={captchaRef2} sitekey={siteKey} onChange={Change} />,
             </div>
         </div>
           
