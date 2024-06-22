@@ -21,16 +21,6 @@ const images = [
 ];
 
 const Cl = () => {
- 
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
-  
 
   return (
     <div className="carousel2">
