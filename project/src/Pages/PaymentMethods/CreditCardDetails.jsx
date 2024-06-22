@@ -12,7 +12,7 @@ const CreditCardDetails = () => {
     const [securityCode, setSecurityCode] = useState('');
     const [verified,setverified] = useState(false);
 
-    const siteKey = import.meta.env.REACT_APP_SITE_KEY;
+    const siteKey = import.meta.env.VITE_SITE_KEY;
   
     const handleSubmit = (e) => {
       e.preventDefault();

@@ -69,7 +69,7 @@ const PromoCode = ({ initialTotal, onApplyDiscount }) => {
         <div className='num'>${total}</div>
       </div>
       {
-        discount > 0 && promoCode === "3bfk4444" (
+        discount > 0 && (
         <div className="save">You Are Saving 15%</div>
       ) 
       }
